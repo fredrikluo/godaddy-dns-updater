@@ -12,6 +12,7 @@ docker run --name www.fredrikai.com -d --restart unless-stopped --env GD_NAME=YO
     --env GD_KEY=YOUR_GODADDY_KEY \
     --env GD_SECRET=YOUR_GODADDY_SECRET \
     fredrikluo/godaddyupdater:1.0
+```
 
 for example
 
