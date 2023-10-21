@@ -1,5 +1,4 @@
 """ Update GoDaddy DNS records with current public IP address"""
-from typing import List
 from godaddypy import Client, Account
 import typer
 import public_ip as ip
