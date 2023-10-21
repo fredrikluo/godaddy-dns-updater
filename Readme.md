@@ -16,19 +16,20 @@ docker run --name www.fredrikai.com -d --restart unless-stopped --env GD_NAME=YO
 
 for example
 
-    ```bash
+```bash
     docker run --name www.fredrikai.com -d --restart unless-stopped --env GD_NAME=www \
         --env GD_DOMAINS=fredrikai.com,bpservice.co \
         --env GD_KEY=YOUR_GODADDY_KEY\
         --env GD_SECRET=YOUR_GODADDY_SECRET\
         fredrikluo/godaddyupdater:1.0
-  ```
+```
 
 Create your key and secret at GoDaddy Developer Portal. The script will then check and update the IP every 5 minutes. use 
 
-    ```bash
+```bash
         docker logs -f
-    ```
+```
+
 To make sure there is no error in the log.
 
 ## Features
